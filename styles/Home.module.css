@@ -5,6 +5,45 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  border: solid 1px black;
+  background-color: white;
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.labels{
+  padding-bottom: 10px;
+}
+
+.inputs{
+  width: 300px;
+  height: 30px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  border: solid 1px black;
+}
+
+.button{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: medium;
+  color: white;
+  background-color: black;
 }
 
 .description {
